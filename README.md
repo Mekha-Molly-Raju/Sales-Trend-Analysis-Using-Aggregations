@@ -11,6 +11,7 @@ CHANGE Date order_date DATE;
 
 ALTER TABLE online_sales_data
 CHANGE Total Revenue total_revenue DECIMAL(10,2);
+
 SELECT 
     EXTRACT(YEAR FROM order_date) AS year,
     EXTRACT(MONTH FROM order_date) AS month,
