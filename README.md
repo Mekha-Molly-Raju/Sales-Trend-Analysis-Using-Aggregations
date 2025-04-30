@@ -1,6 +1,8 @@
 # Sales-Trend-Analysis-Using-Aggregations
 Import online sales data into mysql 
+
 sql queries are;
+
 ALTER TABLE online_sales_data
 CHANGE Transaction ID transaction_id INT;
 
